@@ -24,10 +24,10 @@ Options:
   -v|vv|vvv, --verbose  Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
 
 Available commands:
-  about    Display the short information about COVID-19 CLI.
-  all      Display the available countries.
-  country  Display the summary of total cases for a given country.
-  global   Display the summary of total cases world wide.
+  about    Display the short information about COVID-19 CLI
+  all      Display the available countries
+  country  Display the summary of total cases for a given country
+  global   Display the summary of total cases world wide
   help     Displays help for a command
   list     Lists commands
   slug     Display a list of available location, slug and country code
