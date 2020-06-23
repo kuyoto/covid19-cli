@@ -1,5 +1,10 @@
 # COVID-19 CLI
 
+[![Build Status](https://travis-ci.org/kuyoto/covid19-cli.svg?b=master)](https://travis-ci.org/kuyoto/covid19-cli)
+[![Total Downloads](https://poser.pugx.org/kuyoto/covid19-cli/downloads?format=flat)](https://packagist.org/packages/kuyoto/covid19-cli)
+[![Latest Stable Version](https://poser.pugx.org/kuyoto/covid19-cli/v/stable?format=flat)](https://packagist.org/packages/kuyoto/covid19-cli)
+[![License](https://poser.pugx.org/kuyoto/covid19-cli/license?format=flat)](https://packagist.org/packages/kuyoto/covid19-cli)
+
 This package provides a simple command-line tool for diplaying COVID-19 stats. The data is sourced from the [John Hopkins University Center for Systems Science and Engineering (JHU CSSE)](https://github.com/CSSEGISandData/COVID-19) via [covid19api.com](https://covid19api.com).
 
 ```console
