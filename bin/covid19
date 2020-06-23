@@ -1,0 +1,30 @@
+#!usr/bin/env php
+<?php
+
+/**
+ * COVID19-CLI (https://github.com/kuyoto/covid19-cli/).
+ *
+ * PHP version 7
+ *
+ * @category  Library
+ *
+ * @author    Tolulope Kuyoro <nifskid1999@gmail.com>
+ * @copyright 2020 Tolulope Kuyoro <nifskid1999@gmail.com>
+ * @license   https://github.com/kuyoto/covid19-cli/blob/master/LICENSE.md (MIT License)
+ */
+
+declare(strict_types=1);
+
+use Kuyoto\Covid19\Application;
+
+error_reporting(-1);
+
+if (file_exists(__DIR__ . '/../../../autoload.php')) {
+    require __DIR__ . '/../../../autoload.php';
+} else {
+    require __DIR__ . '/../vendor/autoload.php';
+}
+
+$app = new Application();
+
+$app->run();

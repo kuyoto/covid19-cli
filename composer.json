@@ -1,0 +1,55 @@
+{
+    "name": "kuyoto/covid19-cli",
+    "description": "Provides a simple command-line tool for displaying COVID-19 stats.",
+    "keywords": [
+        "cli",
+        "covid",
+        "covid-19"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tolulope Kuyoro",
+            "email": "nifskid1999@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.5",
+        "symfony/console": "^5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "friendsofphp/php-cs-fixer": "^2.16.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kuyoto\\Covid19\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kuyoto\\Covid19\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --colors=always",
+        "test-ci": "vendor/bin/phpunit --colors=always --coverage-clover clover.xml"
+    },
+    "scripts-descriptions": {
+        "test": "Run all tests",
+        "test-ci": "Run test coverage"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
